@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12602958-77C0-A35F-07C1-67A18B2A6CAD" name="T_NIMBUS_USUARIO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>8D340D52-F10E-470B-D6CB-2079ABBC928D</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="A552AE4F-3E61-7A18-9362-6B67B92779F1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>0960B81C-D258-7224-84F1-418BC9CD5412</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_usuario" id="B0C21B8A-02B6-180F-E3BF-7EBC87DC4621">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>FBE7EC5E-0FE0-B180-FCB7-612871430416</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="7DABBBED-2DDF-1DDF-126B-1DFE44F0E281">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>CD4A14D7-BD3A-633B-2EA9-C263C5DC47CB</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="B13F1BDC-6CDC-5FF5-85C5-D402637E5139">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>4ACB7080-19A6-9F47-9C7B-7861134BD3C2</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_NIMBUS_LOCALIZACAO_id_localizacao" id="774C0560-F84B-6ECD-D107-D57B399B0D34">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>DD4F450D-7F76-F5F8-C5BC-18B0F8BB0EA9</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B75FF831-5740-BE8C-1563-7A0D969239CE" referredColumn="84A552E1-496C-1959-E7FE-E30C28FDE167"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2F87525-223F-6900-049F-FF9F0098E514" name="T_NIMBUS_USUARIO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>FFDFBDD8-5105-E64C-47C6-19DC49AB8C4D</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A552AE4F-3E61-7A18-9362-6B67B92779F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5F91D67-01C3-9264-863B-6E8360E845F1" name="T_NIMBUS_USUARIO__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<ownerDesignName>coisa</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>233F74C7-4B1F-E06C-C89F-DE2152D61941</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="774C0560-F84B-6ECD-D107-D57B399B0D34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03E84623-F43A-37D1-4DA4-FB0103F25964" name="Relation_6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>233F74C7-4B1F-E06C-C89F-DE2152D61941</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="774C0560-F84B-6ECD-D107-D57B399B0D34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

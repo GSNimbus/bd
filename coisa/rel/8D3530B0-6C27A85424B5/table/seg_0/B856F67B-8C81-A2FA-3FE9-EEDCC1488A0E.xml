@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B856F67B-8C81-A2FA-3FE9-EEDCC1488A0E" name="T_NIMBUS_GP_ENDERECO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>BE067638-DDB2-61F9-50BD-F8EF35AC75F4</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_gp_endereco" id="8DE74A85-0164-DC69-E7DE-208A42605E87">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>A77672A0-6330-7113-56F1-ACA387AFED10</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_grupo" id="621EEF7C-F9D9-B952-FD73-B4107CFD7E64">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>6D8ADF83-45A2-D957-E461-D5D3B6993EA2</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_NIMBUS_USUARIO_id_usuario" id="E1AFE359-55E6-E904-8352-78FF937AFBBD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>7D617428-8E0E-7B11-632D-31B805F71FFD</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F12524C-BD89-BBFD-8625-D8AF1B68C7E1" referredColumn="A552AE4F-3E61-7A18-9362-6B67B92779F1"/>
+</associations>
+</Column>
+<Column name="T_NIMBUS_ENDERECO_id_endereco" id="B851DDA7-D7F3-CEB2-DE90-96064460F39D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>796F2CA6-B55B-F885-4328-078AF20A869B</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E1B336E-95DE-E4D1-0F9E-A4256AF6FC48" referredColumn="DD3D0496-E304-0A9B-3BDB-8A88CF898BBB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC1D3978-83DE-6921-EDD0-B308FBE6AEFF" name="T_NIMBUS_GP_ENDERECO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>4E66025B-456A-508A-1603-3AAB932AA783</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DE74A85-0164-DC69-E7DE-208A42605E87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89B7CE30-2032-3A77-EE68-6D5454A47537" name="Relation_10">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>B8820A0D-7214-696B-00DA-4D54D58F469E</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B851DDA7-D7F3-CEB2-DE90-96064460F39D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C956DD6-4E15-3904-E7EF-A8432C75E635" name="Relation_9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>B391BC9F-7B37-83D9-DDDE-61F6F32E2160</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1AFE359-55E6-E904-8352-78FF937AFBBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="423BA3A6-4F49-37B1-4477-4168101B1E5B" name="T_NIMBUS_ESTADO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>4779DC42-D7E3-F4B3-B9A1-F02784497119</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estado" id="41DB3CBD-C609-9F35-DD7E-BAC405285889">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>4A3B386B-572B-970D-CB1B-E3E81D81F1FA</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="1F616FC5-4BFB-E96A-72F1-984E52C01DBD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>8FA64EC0-1004-A242-8DCF-223AFE86B35B</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_NIMBUS_PAIS_id_pais" id="ED58B323-26D5-7E64-2487-6EC200A4618C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>886B87A5-3DCD-4F96-3114-A7E7B8174E5D</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C1C21CA-F140-C1A6-B552-1D901DAFDF72" referredColumn="47AB970E-F3A9-FD5A-761F-15312B85F526"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89AD510F-9C94-6055-C4A7-5EB657F6FD68" name="T_NIMBUS_ESTADO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>1826D2C4-42D6-EEB4-D8AF-B38713CAA5DC</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41DB3CBD-C609-9F35-DD7E-BAC405285889"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD07371D-AE21-2810-9B15-882A0B07F4BA" name="Relation_1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>01D00F83-19AD-8ABD-71F2-FD350C41B8D2</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED58B323-26D5-7E64-2487-6EC200A4618C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

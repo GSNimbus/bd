@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F0E2CB0-D35A-CD96-5847-53EAA5470287" name="T_NIMBUS_ENDERECO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 11:57:23 UTC</createdTime>
+<ownerDesignName>coisa</ownerDesignName>
+<engineerTo>
+<item key="8D3530B0-1BD1-6871-81C7-6C27A85424B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_endereco" id="B367019F-6E0F-A7C8-126B-7D076DC41683">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 11:57:30 UTC</createdTime>
+<ownerDesignName>coisa</ownerDesignName>
+<engineerTo>
+<item key="8D3530B0-1BD1-6871-81C7-6C27A85424B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cep" id="B0A97E70-8739-9BFC-8036-4F98054DFC1E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 11:57:42 UTC</createdTime>
+<ownerDesignName>coisa</ownerDesignName>
+<engineerTo>
+<item key="8D3530B0-1BD1-6871-81C7-6C27A85424B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_bairro" id="C262AFD8-F620-DFAF-5A69-E3F333BC8E91">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 12:04:18 UTC</createdTime>
+<generatorID>D8373EB0-34FE-8B44-1872-BB204AD75E6E</generatorID>
+<ownerDesignName>coisa</ownerDesignName>
+<engineerTo>
+<item key="8D3530B0-1BD1-6871-81C7-6C27A85424B5" value="true"/>
+</engineerTo>
+<referedAttribute>C7610D87-6B2F-F11E-24BA-BB8C71CFA384</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="72F57A5D-EB96-8488-EF3E-840B77306639" name="T_NIMBUS_ENDERECO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 11:57:41 UTC</createdTime>
+<ownerDesignName>coisa</ownerDesignName>
+<engineerTo>
+<item key="8D3530B0-1BD1-6871-81C7-6C27A85424B5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B367019F-6E0F-A7C8-126B-7D076DC41683</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
