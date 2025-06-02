@@ -9,11 +9,11 @@ END;
 /
 
 BEGIN
-    INSERT INTO t_nimbus_pais VALUES (1, 'Portugal');
-    INSERT INTO t_nimbus_pais VALUES (2, 'Brasil');
-    INSERT INTO t_nimbus_pais VALUES (3, 'Espanha');
-    INSERT INTO t_nimbus_pais VALUES (4, 'Itália');
-    INSERT INTO t_nimbus_pais VALUES (5, 'França');
+    INSERT INTO t_nimbus_pais VALUES (1, 'Brasil');
+    INSERT INTO t_nimbus_pais VALUES (2, 'México');
+    INSERT INTO t_nimbus_pais VALUES (3, 'Brasil');
+    INSERT INTO t_nimbus_pais VALUES (4, 'Brasil');
+    INSERT INTO t_nimbus_pais VALUES (5, 'Brasil');
     
     COMMIT;
 END;
@@ -31,11 +31,11 @@ END;
 /
 
 BEGIN
-    INSERT INTO t_nimbus_estado VALUES (1, 'Estado_1', 2);
-    INSERT INTO t_nimbus_estado VALUES (2, 'Estado_2', 3);
-    INSERT INTO t_nimbus_estado VALUES (3, 'Estado_3', 4);
-    INSERT INTO t_nimbus_estado VALUES (4, 'Estado_4', 5);
-    INSERT INTO t_nimbus_estado VALUES (5, 'Estado_5', 1);
+    INSERT INTO t_nimbus_estado VALUES (1, 'São Paulo', 2);
+    INSERT INTO t_nimbus_estado VALUES (2, 'Rio de Janeiro', 3);
+    INSERT INTO t_nimbus_estado VALUES (3, 'Amazonas', 4);
+    INSERT INTO t_nimbus_estado VALUES (4, 'Rio Grande do Sul', 5);
+    INSERT INTO t_nimbus_estado VALUES (5, 'Goiás', 1);
     
     COMMIT;
 END;
@@ -53,11 +53,11 @@ END;
 /
 
 BEGIN
-    INSERT INTO t_nimbus_cidade VALUES (1, 'Cidade_1', 2);
-    INSERT INTO t_nimbus_cidade VALUES (2, 'Cidade_2', 3);
-    INSERT INTO t_nimbus_cidade VALUES (3, 'Cidade_3', 4);
-    INSERT INTO t_nimbus_cidade VALUES (4, 'Cidade_4', 5);
-    INSERT INTO t_nimbus_cidade VALUES (5, 'Cidade_5', 1);
+    INSERT INTO t_nimbus_cidade VALUES (1, 'Macaé', 2);
+    INSERT INTO t_nimbus_cidade VALUES (2, 'Anori', 3);
+    INSERT INTO t_nimbus_cidade VALUES (3, 'Novo Hamburgo', 4);
+    INSERT INTO t_nimbus_cidade VALUES (4, 'Trindade', 5);
+    INSERT INTO t_nimbus_cidade VALUES (5, 'Osasco', 1);
     
     COMMIT;
 END;
@@ -98,11 +98,11 @@ END;
 /
 
 BEGIN
-    INSERT INTO t_nimbus_bairro VALUES (1, 'Rua_1', 2, 1);
-    INSERT INTO t_nimbus_bairro VALUES (2, 'Rua_2', 3, 2);
-    INSERT INTO t_nimbus_bairro VALUES (3, 'Rua_3', 4, 3);
-    INSERT INTO t_nimbus_bairro VALUES (4, 'Rua_4', 5, 4);
-    INSERT INTO t_nimbus_bairro VALUES (5, 'Rua_5', 1, 5);
+    INSERT INTO t_nimbus_bairro VALUES (1, 'Centro', 2, 1);
+    INSERT INTO t_nimbus_bairro VALUES (2, 'Centro', 3, 2);
+    INSERT INTO t_nimbus_bairro VALUES (3, 'Centro', 4, 3);
+    INSERT INTO t_nimbus_bairro VALUES (4, 'Vila Yara', 5, 4);
+    INSERT INTO t_nimbus_bairro VALUES (5, 'Cavaleiros', 1, 5);
     
     COMMIT;
 END;
@@ -122,11 +122,11 @@ END;
 
 
 BEGIN
-    INSERT INTO t_nimbus_endereco VALUES (1, 10000001, 1);
-    INSERT INTO t_nimbus_endereco VALUES (2, 10000002, 2);
-    INSERT INTO t_nimbus_endereco VALUES (3, 10000003, 3);
-    INSERT INTO t_nimbus_endereco VALUES (4, 10000004, 4);
-    INSERT INTO t_nimbus_endereco VALUES (5, 10000005, 5);
+    INSERT INTO t_nimbus_endereco VALUES (1, '10000001', 1);
+    INSERT INTO t_nimbus_endereco VALUES (2, '10000002', 2);
+    INSERT INTO t_nimbus_endereco VALUES (3, '10000003', 3);
+    INSERT INTO t_nimbus_endereco VALUES (4, '10000004', 4);
+    INSERT INTO t_nimbus_endereco VALUES (5, '10000005', 5);
     
     COMMIT;
 END;
@@ -148,11 +148,11 @@ END;
 /
 
 BEGIN
-    INSERT INTO t_nimbus_alerta VALUES (1, 'ALTO     ', 'Chuva Forte  ', 'Alerta de chuva intensa na região 1', TO_DATE('2024-05-29 14:32:00', 'YYYY-MM-DD HH24:MI:SS'), 1);
-    INSERT INTO t_nimbus_alerta VALUES (2, 'ALTO     ', 'Chuva Forte  ', 'Alerta de chuva intensa na região 2', TO_DATE('2024-05-28 14:32:00', 'YYYY-MM-DD HH24:MI:SS'), 2);
-    INSERT INTO t_nimbus_alerta VALUES (3, 'ALTO     ', 'Chuva Forte  ', 'Alerta de chuva intensa na região 3', TO_DATE('2024-05-27 14:32:00', 'YYYY-MM-DD HH24:MI:SS'), 3);
-    INSERT INTO t_nimbus_alerta VALUES (4, 'ALTO     ', 'Chuva Forte  ', 'Alerta de chuva intensa na região 4', TO_DATE('2024-05-26 14:32:00', 'YYYY-MM-DD HH24:MI:SS'), 4);
-    INSERT INTO t_nimbus_alerta VALUES (5, 'ALTO     ', 'Chuva Forte  ', 'Alerta de chuva intensa na região 5', TO_DATE('2024-05-25 14:32:00', 'YYYY-MM-DD HH24:MI:SS'), 5);
+    INSERT INTO t_nimbus_alerta VALUES (1, 'ALTO', 'Chuva Forte', 'Alerta de chuva intensa na região 1', TO_DATE('2024-05-29 14:32:00', 'YYYY-MM-DD HH24:MI:SS'), 1);
+    INSERT INTO t_nimbus_alerta VALUES (2, 'ALTO', 'Chuva Forte', 'Alerta de chuva intensa na região 2', TO_DATE('2024-05-28 14:32:00', 'YYYY-MM-DD HH24:MI:SS'), 2);
+    INSERT INTO t_nimbus_alerta VALUES (3, 'ALTO', 'Chuva Forte', 'Alerta de chuva intensa na região 3', TO_DATE('2024-05-27 14:32:00', 'YYYY-MM-DD HH24:MI:SS'), 3);
+    INSERT INTO t_nimbus_alerta VALUES (4, 'ALTO', 'Chuva Forte', 'Alerta de chuva intensa na região 4', TO_DATE('2024-05-26 14:32:00', 'YYYY-MM-DD HH24:MI:SS'), 4);
+    INSERT INTO t_nimbus_alerta VALUES (5, 'ALTO', 'Chuva Forte', 'Alerta de chuva intensa na região 5', TO_DATE('2024-05-25 14:32:00', 'YYYY-MM-DD HH24:MI:SS'), 5);
     
     COMMIT;
 END;

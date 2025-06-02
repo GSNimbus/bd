@@ -1,7 +1,7 @@
 CREATE TABLE t_nimbus_alerta (
     id_alerta                           NUMBER(9) NOT NULL,
-    ds_risco                            CHAR(10) NOT NULL,
-    ds_tipo                             CHAR(15) NOT NULL,
+    ds_risco                            VARCHAR2(10) NOT NULL,
+    ds_tipo                             VARCHAR2(15) NOT NULL,
     ds_mensagem                         VARCHAR2(250) NOT NULL,
     horario_alerta                      DATE NOT NULL, 
     id_localizacao                      NUMBER(9) NOT NULL
@@ -72,8 +72,8 @@ ALTER TABLE t_nimbus_pais ADD CONSTRAINT t_nimbus_pais_pk PRIMARY KEY ( id_pais 
 
 CREATE TABLE t_nimbus_usuario (
     id_usuario                          NUMBER(9) NOT NULL,
-    nm_usuario                          CHAR(50) NOT NULL,
-    ds_email                            CHAR(50) NOT NULL,
+    nm_usuario                          VARCHAR2(50) NOT NULL,
+    ds_email                            VARCHAR2(50) NOT NULL,
     senha                               VARCHAR2(12) NOT NULL, 
     id_localizacao                      NUMBER(9) NOT NULL
 );
