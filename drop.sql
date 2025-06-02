@@ -8,5 +8,7 @@ DROP TABLE t_nimbus_estado CASCADE CONSTRAINTS;
 DROP TABLE t_nimbus_pais CASCADE CONSTRAINTS;
 DROP TABLE t_nimbus_localizacao CASCADE CONSTRAINTS;
 
-DELETE FROM t_nimbus_usuario WHERE id_usuario IN (1);
-COMMIT;
+
+
+
+
