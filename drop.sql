@@ -11,4 +11,3 @@ DROP TABLE t_nimbus_localizacao CASCADE CONSTRAINTS;
 
 
 
-

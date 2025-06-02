@@ -28,7 +28,7 @@ ALTER TABLE t_nimbus_cidade ADD CONSTRAINT t_nimbus_cidade_pk PRIMARY KEY ( id_c
 
 CREATE TABLE t_nimbus_endereco (
     id_endereco               NUMBER(9) NOT NULL,
-    nr_cep                    NUMBER(8) NOT NULL,
+    nr_cep                    VARCHAR2(8) NOT NULL,
     id_bairro                 NUMBER(9) NOT NULL
 );
 
