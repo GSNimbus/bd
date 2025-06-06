@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="61EE1A43-1DF7-49DE-2869-AEA1FB7DCA79" containerWithKeyObject="BB03C531-E2C4-6B2E-D81E-BC2D97C1E35A" localFKIndex="C326B0AB-6CFB-50A4-839B-770383999888" name="Relation_23">
+<createdBy>juman</createdBy>
+<createdTime>2025-06-04 19:16:47 UTC</createdTime>
+<generatorID>340C2070-A242-B214-C10D-DC0902D0AE34</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<referredTableLongName>T_NIMBUS_BAIRRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>439F5A35-B295-5B9E-1328-851266CA4AF9</referredTableID>
+<keyObject>23158D84-63A7-BE68-B5E4-F71C2CCC46BC</keyObject>
+<referredKeyID>23158D84-63A7-BE68-B5E4-F71C2CCC46BC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_bairro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

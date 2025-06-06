@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="coisa" id="77514ABA-F7C1-A51D-96C8-3077BCD1529F" version="3.5">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-28 11:39:39 UTC</createdTime>
-<ownerDesignName>coisa</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>77514ABA-F7C1-A51D-96C8-3077BCD1529F</designId>
-</OSDM_Design>

@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4536BA5D-56A5-D79D-D5B8-1EC8E8B69701" name="T_NIMBUS_ALERTA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>BBC18335-1024-431C-A9B6-36B25C7ACC8F</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_alerta" id="B90E1561-2679-2AE2-8C3C-CB46C3D2709E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>440C7E1A-00D5-705D-B3EB-C542BEE4D0C6</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_risco" id="3ABD2B48-2E51-8233-F715-F0E9026AEC43">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>EB47CD62-3CB9-D8C5-24E7-B6BFD03C89BD</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo" id="C234BC8A-826E-E1DF-BBFF-8E832F4B7B78">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>28BDF9AA-A92D-856E-B582-9A0EFFC7F121</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_mensagem" id="62FB1955-0073-860F-CAF1-B74F90979277">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>72F3DED0-BB06-11A5-DFD0-9B26135E8410</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horario_alerta" id="67CBE26B-1C21-99EE-9DC6-3223C9C1416F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>F05B20A5-8AB4-0451-65DF-EF70EE4521D2</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_bairro" id="509DE9E8-26A0-B38E-8AD2-213ECC8A50DE">
+<createdBy>juman</createdBy>
+<createdTime>2025-06-04 19:16:47 UTC</createdTime>
+<generatorID>9F8E3233-99AA-13EA-AC3F-380C7415E522</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1C67CCB-D3AA-EC04-58CB-4CB31E094ED8" referredColumn="23C4CE2E-00F8-6344-FF3D-F56F012E376B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1363D3B8-BD5F-2A19-BC6D-0D319A19F681" name="T_NIMBUS_ALERTA_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-28 13:10:06 UTC</createdTime>
+<generatorID>CE9DD855-CF57-4701-3C97-EE89E2654F1A</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B90E1561-2679-2AE2-8C3C-CB46C3D2709E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F65795A-D9E6-65E9-179E-3E12FC79F748" name="Relation_24">
+<createdBy>juman</createdBy>
+<createdTime>2025-06-04 19:16:47 UTC</createdTime>
+<generatorID>B3479F8E-320A-5272-EB00-3ABA5B60C1B3</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="509DE9E8-26A0-B38E-8AD2-213ECC8A50DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

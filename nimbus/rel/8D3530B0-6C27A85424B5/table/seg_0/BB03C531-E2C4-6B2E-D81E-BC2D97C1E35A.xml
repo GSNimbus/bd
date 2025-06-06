@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB03C531-E2C4-6B2E-D81E-BC2D97C1E35A" name="T_NIMBUS_PREVISAO">
+<createdBy>juman</createdBy>
+<createdTime>2025-06-04 19:16:47 UTC</createdTime>
+<generatorID>7816FCCB-F1DE-E7D5-4D58-C824156C6FB6</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_previsao" id="71561AB9-7D90-CE64-2D88-73B22A28C238">
+<createdBy>juman</createdBy>
+<createdTime>2025-06-04 19:16:47 UTC</createdTime>
+<generatorID>52C42C75-D98B-5A75-8B1A-EA92811645A2</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_hora" id="1881ACFF-0308-55FE-8C61-C86336F68871">
+<createdBy>juman</createdBy>
+<createdTime>2025-06-04 19:16:47 UTC</createdTime>
+<generatorID>EAD866FD-9728-BE98-B299-8F3A4F86D007</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_temperatura" id="3AE68D38-F836-4AEF-0E50-9A9CE68C8FE8">
+<createdBy>juman</createdBy>
+<createdTime>2025-06-04 19:16:47 UTC</createdTime>
+<generatorID>E1319730-B35C-3ADA-FD3E-19AE448FEE72</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_chuva" id="E575A9FE-96D4-AB7C-AD87-73AB9C1D2168">
+<createdBy>juman</createdBy>
+<createdTime>2025-06-04 19:16:47 UTC</createdTime>
+<generatorID>7FBC3EA7-CAFE-4736-A98A-9458C7DB1EA5</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_codigo_chuva" id="65317E8C-7B3E-4A04-4B15-DEC3195C89C3">
+<createdBy>juman</createdBy>
+<createdTime>2025-06-04 19:16:47 UTC</createdTime>
+<generatorID>1963C36A-1044-CA8C-08A2-F32415B996B7</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_velocidade_vento" id="9CA37736-7B7B-FD77-8665-C66C1AF025F3">
+<createdBy>juman</createdBy>
+<createdTime>2025-06-04 19:16:47 UTC</createdTime>
+<generatorID>5E5E9FE9-41EB-E7B1-95CE-BF7CCE917E6E</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_rajada_vento" id="E32500E9-2B31-9805-2DBA-28CFF3AD1A65">
+<createdBy>juman</createdBy>
+<createdTime>2025-06-04 19:16:47 UTC</createdTime>
+<generatorID>5B837ED9-CED8-24CB-A4CB-4F04B2837759</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_umidade" id="8446E090-5031-F8A7-4350-7B323FFAC093">
+<createdBy>juman</createdBy>
+<createdTime>2025-06-04 19:16:47 UTC</createdTime>
+<generatorID>5AF8D76D-FE12-2888-44A7-6C7A505CAB7E</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_bairro" id="B28812FA-1482-DAD1-FBE7-8A96772824E9">
+<createdBy>juman</createdBy>
+<createdTime>2025-06-04 19:16:47 UTC</createdTime>
+<generatorID>BE0111E0-1321-C8BD-F2FE-1BB91D39C62C</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61EE1A43-1DF7-49DE-2869-AEA1FB7DCA79" referredColumn="23C4CE2E-00F8-6344-FF3D-F56F012E376B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9550A40-B2DB-711E-E558-EB5FC32181F1" name="T_NIMBUS_PREVISAO_PK">
+<createdBy>juman</createdBy>
+<createdTime>2025-06-04 19:16:47 UTC</createdTime>
+<generatorID>BD72DA29-4930-3822-DC49-0667872B474C</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71561AB9-7D90-CE64-2D88-73B22A28C238"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C326B0AB-6CFB-50A4-839B-770383999888" name="Relation_23">
+<createdBy>juman</createdBy>
+<createdTime>2025-06-04 19:16:47 UTC</createdTime>
+<generatorID>340C2070-A242-B214-C10D-DC0902D0AE34</generatorID>
+<ownerDesignName>nimbus</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B28812FA-1482-DAD1-FBE7-8A96772824E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
