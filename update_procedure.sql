@@ -47,7 +47,7 @@ END;
 /
 
 BEGIN
-    atualizar_cidade(2, 'Maceió', 2);
+    atualizar_cidade(2, 'Maceiï¿½', 2);
 END;
 /
 
@@ -65,11 +65,11 @@ END;
 /
 
 BEGIN
-    atualizar_localizacao(1, -616587, -374397);
-    atualizar_localizacao(2, -511333, -296880);
-    atualizar_localizacao(3, -494981, -166492);
-    atualizar_localizacao(4, -467664, -235475);
-    atualizar_localizacao(5, -357020, -966212);
+    atualizar_localizacao(1, -6.16587, -3.74397);
+    atualizar_localizacao(2, -5.11333, -2.96880);
+    atualizar_localizacao(3, -4.94981, -1.66492);
+    atualizar_localizacao(4, -4.67664, -2.35475);
+    atualizar_localizacao(5, -3.57020, -0.96212);
 END;
 /
 
