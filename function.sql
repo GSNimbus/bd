@@ -1,3 +1,6 @@
+SET SERVEROUTPUT ON;
+
+
 CREATE OR REPLACE FUNCTION contador_risco(
     p_ds_risco IN VARCHAR2
 ) RETURN NUMBER
@@ -15,6 +18,7 @@ EXCEPTION
         RETURN 0;
 END contador_risco;
 /
+
 
 SELECT contador_risco('BAIXO') AS alertas FROM DUAL;
 /
@@ -40,7 +44,7 @@ BEGIN
 
 EXCEPTION
     WHEN NO_DATA_FOUND THEN
-        RETURN 'Localização não definida';
+        RETURN 'Localizaï¿½ï¿½o nï¿½o definida';
 END localizacao_usuario;
 /
 
