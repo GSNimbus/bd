@@ -139,7 +139,7 @@ GROUP BY
     b.nm_bairro;
 
 
-select * from t_nimbus_bairro;
+
     
 
 
