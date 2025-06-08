@@ -163,7 +163,7 @@ END;
 /
 
 BEGIN
-    atualizar_alerta('BAIXO', 'Chuva fraca', 'Sem alertas ativos');
+    atualizar_alerta('BAIXO', 'SEM_RISCO_CHUVA', 'Sem alertas ativos');
 END;
 /
 
