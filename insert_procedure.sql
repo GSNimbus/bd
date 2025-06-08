@@ -9,7 +9,7 @@ END;
 
 BEGIN
     inserir_pais('Brasil');
-    inserir_pais('México');
+    inserir_pais('Mï¿½xico');
     inserir_pais('Brasil');
     inserir_pais('Brasil');
     inserir_pais('Brasil');
@@ -27,11 +27,11 @@ END;
 /
 
 BEGIN
-    inserir_estado('São Paulo', 1);
+    inserir_estado('Sï¿½o Paulo', 1);
     inserir_estado('Rio de Janeiro', 2);
     inserir_estado('Amazonas', 3);
     inserir_estado('Rio Grande do Sul', 4);
-    inserir_estado('Goiás', 5);
+    inserir_estado('Goiï¿½s', 5);
 END;
 /
 
@@ -47,7 +47,7 @@ END;
 
 BEGIN
     inserir_cidade('Osasco', 1);
-    inserir_cidade('Macaé', 2);
+    inserir_cidade('Macaï¿½', 2);
     inserir_cidade('Anori', 3);
     inserir_cidade('Novo Hamburgo', 4);
     inserir_cidade('Trindade', 5);
@@ -109,8 +109,8 @@ END;
 /
 
 BEGIN
-    inserir_endereco('01001000', 1, 'Praça da Sé', 100); 
-    inserir_endereco('22070002', 2, 'Av. Atlântica', 3000); 
+    inserir_endereco('01001000', 1, 'Praï¿½a da Sï¿½', 100); 
+    inserir_endereco('22070002', 2, 'Av. Atlï¿½ntica', 3000); 
     inserir_endereco('30130174', 3, 'Rua Pernambuco', 1000); 
     inserir_endereco('40026010', 4, 'Largo do Pelourinho', 50); 
     inserir_endereco('80420090', 5, 'Av. do Batel', 1868); 
@@ -149,10 +149,10 @@ END;
 /
 
 BEGIN
-    inserir_gp_endereco('Família', 1, 1);
+    inserir_gp_endereco('Famï¿½lia', 1, 1);
     inserir_gp_endereco('Casa', 2, 2);
-    inserir_gp_endereco('Casa Mãe', 3, 3);
-    inserir_gp_endereco('Casa Vó', 4, 4);
+    inserir_gp_endereco('Casa Mï¿½e', 3, 3);
+    inserir_gp_endereco('Casa Vï¿½', 4, 4);
     inserir_gp_endereco('Trabalho', 5, 5);
 END;
 /
@@ -173,11 +173,11 @@ END;
 /
 
 BEGIN
-    inserir_alerta('ALTO', 'Chuva Forte', 'Alerta de chuva intensa na regiÃ£o 1', TO_DATE('2024-05-29 10:09:00', 'YYYY-MM-DD HH24:MI:SS'), 1);
-    inserir_alerta('ALTO', 'Chuva Forte', 'Alerta de chuva intensa na regiÃ£o 2', TO_DATE('2025-03-16 13:42:00', 'YYYY-MM-DD HH24:MI:SS'), 2);
-    inserir_alerta('ALTO', 'Chuva Forte', 'Alerta de chuva intensa na regiÃ£o 3', TO_DATE('2025-06-01 09:25:00', 'YYYY-MM-DD HH24:MI:SS'), 3);
-    inserir_alerta('ALTO', 'Chuva Forte', 'Alerta de chuva intensa na regiÃ£o 4', TO_DATE('2025-04-20 11:32:00', 'YYYY-MM-DD HH24:MI:SS'), 4);
-    inserir_alerta('ALTO', 'Chuva Forte', 'Alerta de chuva intensa na regiÃ£o 5', TO_DATE('2024-05-25 07:12:00', 'YYYY-MM-DD HH24:MI:SS'), 5);
+    inserir_alerta('ALTO', 'CHUVA_FORTE', 'Alerta de chuva intensa na regiÃ£o 1', TO_DATE('2024-05-29 10:09:00', 'YYYY-MM-DD HH24:MI:SS'), 1);
+    inserir_alerta('ALTO', 'CHUVA_FORTE', 'Alerta de chuva intensa na regiÃ£o 2', TO_DATE('2025-03-16 13:42:00', 'YYYY-MM-DD HH24:MI:SS'), 2);
+    inserir_alerta('ALTO', 'CHUVA_FORTE', 'Alerta de chuva intensa na regiÃ£o 3', TO_DATE('2025-06-01 09:25:00', 'YYYY-MM-DD HH24:MI:SS'), 3);
+    inserir_alerta('ALTO', 'CHUVA_FORTE', 'Alerta de chuva intensa na regiÃ£o 4', TO_DATE('2025-04-20 11:32:00', 'YYYY-MM-DD HH24:MI:SS'), 4);
+    inserir_alerta('ALTO', 'CHUVA_FORTE', 'Alerta de chuva intensa na regiÃ£o 5', TO_DATE('2024-05-25 07:12:00', 'YYYY-MM-DD HH24:MI:SS'), 5);
 END;
 /
 
