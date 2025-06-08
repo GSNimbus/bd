@@ -75,13 +75,13 @@ END;
 
 CREATE OR REPLACE PROCEDURE atualizar_bairro (
     p_id_bairro      IN t_nimbus_bairro.id_bairro%TYPE,
-    p_nm_logradouro  IN t_nimbus_bairro.nm_logradouro%TYPE,
+    p_nm_logradouro  IN t_nimbus_bairro.nm_bairro%TYPE,
     p_id_cidade      IN t_nimbus_bairro.id_cidade%TYPE,
     p_id_localizacao IN t_nimbus_bairro.id_localizacao%TYPE
 ) IS
 BEGIN
     UPDATE t_nimbus_bairro
-    SET nm_logradouro = p_nm_logradouro
+    SET nm_bairro = p_nm_logradouro
     WHERE id_bairro = p_id_bairro;
     COMMIT;
 END;

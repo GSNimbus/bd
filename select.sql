@@ -31,7 +31,7 @@ END;
 BEGIN
     FOR rec IN (
         SELECT 
-            b.nm_logradouro,
+            b.nm_bairro,
             a.ds_risco,
             a.ds_tipo,
             a.horario_alerta
@@ -41,7 +41,7 @@ BEGIN
             T_NIMBUS_ALERTA a ON b.id_bairro = a.id_bairro
     ) LOOP
         DBMS_OUTPUT.PUT_LINE(
-            'Logradouro: ' || rec.nm_logradouro ||
+            'Logradouro: ' || rec.nm_bairro ||
             ' | Risco: ' || rec.ds_risco ||
             ' | Tipo: ' || rec.ds_tipo ||
             ' | Data: ' || TO_CHAR(rec.horario_alerta, 'DD/MM/YYYY HH24:MI')
@@ -116,28 +116,30 @@ ORDER BY
     
 
 SELECT 
-    b.nm_logradouro,
+    b.nm_bairro,
     AVG(p.nr_rajada_vento) AS media_rajada
 FROM 
     T_NIMBUS_PREVISAO p
 JOIN 
     T_NIMBUS_BAIRRO b ON p.id_bairro = b.id_bairro
 GROUP BY 
-    b.nm_logradouro
+    b.nm_bairro
 ORDER BY 
     media_rajada DESC;
     
 
 SELECT 
-    b.nm_logradouro,
+    b.nm_bairro,
     AVG(p.nr_temperatura) AS media_temperatura
 FROM 
     T_NIMBUS_PREVISAO p
 JOIN 
     T_NIMBUS_BAIRRO b ON p.id_bairro = b.id_bairro
 GROUP BY 
-    b.nm_logradouro;
-    
+    b.nm_bairro;
+
+
+select * from t_nimbus_bairro;
     
 
 

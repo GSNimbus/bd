@@ -9,15 +9,10 @@ END;
 
 BEGIN
     inserir_pais('Brasil');
-    inserir_pais('Argentina');
-    inserir_pais('Uruguai');
-    inserir_pais('Chile');
-    inserir_pais('Paraguai');
-    inserir_pais('Col√¥mbia');
-    inserir_pais('Peru');
-    inserir_pais('M√©xico');
-    inserir_pais('Espanha');
-    inserir_pais('Portugal');
+    inserir_pais('MÈxico');
+    inserir_pais('Brasil');
+    inserir_pais('Brasil');
+    inserir_pais('Brasil');
 END;
 /
 
@@ -32,16 +27,11 @@ END;
 /
 
 BEGIN
-    inserir_estado('S√£o Paulo', 1);
-    inserir_estado('Minas Gerais', 1);
-    inserir_estado('Rio de Janeiro', 1);
-    inserir_estado('Bahia', 1);
-    inserir_estado('Paran√°', 1);
-    inserir_estado('Santa Catarina', 1);
-    inserir_estado('Rio Grande do Sul', 1);
-    inserir_estado('Pernambuco', 1);
-    inserir_estado('Cear√°', 1);
-    inserir_estado('Distrito Federal', 1);
+    inserir_estado('S„o Paulo', 1);
+    inserir_estado('Rio de Janeiro', 2);
+    inserir_estado('Amazonas', 3);
+    inserir_estado('Rio Grande do Sul', 4);
+    inserir_estado('Goi·s', 5);
 END;
 /
 
@@ -56,16 +46,11 @@ END;
 /
 
 BEGIN
-    inserir_cidade('S√£o Paulo', 1);
-    inserir_cidade('Campinas', 1);
-    inserir_cidade('Belo Horizonte', 2);
-    inserir_cidade('Rio de Janeiro', 3);
-    inserir_cidade('Salvador', 4);
-    inserir_cidade('Curitiba', 5);
-    inserir_cidade('Porto Alegre', 7);
-    inserir_cidade('Recife', 8);
-    inserir_cidade('Fortaleza', 9);
-    inserir_cidade('Bras√≠lia', 10);
+    inserir_cidade('Osasco', 1);
+    inserir_cidade('MacaÈ', 2);
+    inserir_cidade('Anori', 3);
+    inserir_cidade('Novo Hamburgo', 4);
+    inserir_cidade('Trindade', 5);
 END;
 /
 
@@ -87,12 +72,6 @@ BEGIN
     inserir_localizacao(-38.5014, -12.9714);
     inserir_localizacao(-49.2733, -25.4284);
     inserir_localizacao(-51.2177, -30.0346);
-    inserir_localizacao(-34.8813, -8.0579);
-    inserir_localizacao(-38.5431, -3.7172);
-    inserir_localizacao(-47.8825, -15.7942);
-    inserir_localizacao(-47.0608, -22.9028);
-    inserir_localizacao(-48.5495, -27.5969);
-    inserir_localizacao(-48.5039, -1.4558);
 END;
 /
 
@@ -108,16 +87,11 @@ END;
 /
 
 BEGIN
-    inserir_bairro('S√©', 1, 1);
-    inserir_bairro('Copacabana', 4, 2);
-    inserir_bairro('Savassi', 3, 3);
-    inserir_bairro('Pelourinho', 5, 4);
-    inserir_bairro('Batel', 6, 5);
-    inserir_bairro('Moinhos de Vento', 7, 6);
-    inserir_bairro('Boa Viagem', 8, 7);
-    inserir_bairro('Meireles', 9, 8);
-    inserir_bairro('Asa Sul', 10, 9);
-    inserir_bairro('Cambu√≠', 2, 10);
+    inserir_bairro('Vila Yara', 1, 1);
+    inserir_bairro('Cavaleiros', 2, 2);
+    inserir_bairro('Centro', 3, 3);
+    inserir_bairro('Centro', 4, 4);
+    inserir_bairro('Centro', 5, 5);
 END;
 /
 
@@ -135,16 +109,11 @@ END;
 /
 
 BEGIN
-    inserir_endereco('01001000', 1, 'Pra√ßa da S√©', 100); 
-    inserir_endereco('22070002', 2, 'Av. Atl√¢ntica', 3000); 
+    inserir_endereco('01001000', 1, 'PraÁa da SÈ', 100); 
+    inserir_endereco('22070002', 2, 'Av. Atl‚ntica', 3000); 
     inserir_endereco('30130174', 3, 'Rua Pernambuco', 1000); 
     inserir_endereco('40026010', 4, 'Largo do Pelourinho', 50); 
     inserir_endereco('80420090', 5, 'Av. do Batel', 1868); 
-    inserir_endereco('90570020', 6, 'Rua Padre Chagas', 300); 
-    inserir_endereco('51020000', 7, 'Av. Boa Viagem', 5000); 
-    inserir_endereco('60165121', 8, 'Av. Beira Mar', 3000); 
-    inserir_endereco('70390100', 9, 'SCS Quadra 7', 10); 
-    inserir_endereco('13025150', 10, 'Rua Maria Monteiro', 1200); 
 END;
 /
 
@@ -180,10 +149,10 @@ END;
 /
 
 BEGIN
-    inserir_gp_endereco('Fam√≠lia', 1, 1);
+    inserir_gp_endereco('FamÌlia', 1, 1);
     inserir_gp_endereco('Casa', 2, 2);
-    inserir_gp_endereco('Casa M√£e', 3, 3);
-    inserir_gp_endereco('Casa V√≥', 4, 4);
+    inserir_gp_endereco('Casa M„e', 3, 3);
+    inserir_gp_endereco('Casa VÛ', 4, 4);
     inserir_gp_endereco('Trabalho', 5, 5);
 END;
 /
